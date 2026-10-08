@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
 import { ServicePage } from "@/components/ServicePage";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Инспекция фабрик в Китае — проверка товара и производства",
-  description:
-    "Проверка фабрик и товара перед отправкой в Китае. Контроль качества, фото и видео отчёт. +86 157 1280 6041",
-};
+export const metadata = pageMetadata(
+  "/inspektsiya-fabrik",
+  "Инспекция фабрик в Китае — проверка товара и производства",
+  "Проверка фабрик и товара перед отправкой в Китае. Контроль качества, фото и видео отчёт. +86 157 1280 6041",
+);
 
 export default function InspektsiyaPage() {
   return (

@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
 import { ServicePage } from "@/components/ServicePage";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Китайский переводчик для бизнеса — сопровождение сделок",
-  description:
-    "Комплексное сопровождение бизнеса в Китае: поиск поставщиков, переговоры, контроль производства. +86 157 1280 6041",
-};
+export const metadata = pageMetadata(
+  "/dlya-biznesa",
+  "Китайский переводчик для бизнеса — сопровождение сделок",
+  "Комплексное сопровождение бизнеса в Китае: поиск поставщиков, переговоры, контроль производства. +86 157 1280 6041",
+);
 
 export default function DlyaBiznesaPage() {
   return (

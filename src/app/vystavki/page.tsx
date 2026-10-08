@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
 import { ServicePage } from "@/components/ServicePage";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Переводчик на выставке в Китае — Кантонская ярмарка и другие",
-  description:
-    "Сопровождение на выставках в Китае: Кантонская ярмарка, подбор товаров, переговоры с поставщиками. +86 157 1280 6041",
-};
+export const metadata = pageMetadata(
+  "/vystavki",
+  "Переводчик на выставке в Китае — Кантонская ярмарка и другие",
+  "Сопровождение на выставках в Китае: Кантонская ярмарка, подбор товаров, переговоры с поставщиками. +86 157 1280 6041",
+);
 
 export default function VystavkiPage() {
   return (
