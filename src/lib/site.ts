@@ -1,3 +1,5 @@
+export const BASE_URL = "https://perevodchik-v-kitae.com";
+
 export const SITE = {
   name: "Переводчик в Китае",
   phoneDisplay: "+86 157 1280 6041",
