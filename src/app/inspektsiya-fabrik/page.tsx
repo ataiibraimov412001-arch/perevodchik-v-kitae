@@ -20,17 +20,17 @@ export default function InspektsiyaPage() {
       ]}
       videos={[
         {
-          src: "/videos-hls/wallpaper-check/master.m3u8",
+          src: "https://pub-3dc4056c77ee422a8efd619927049c0e.r2.dev/wallpaper-check/master.m3u8",
           title: "Проверяем обои на производстве",
           orientation: "portrait",
         },
         {
-          src: "/videos-hls/production-visit/master.m3u8",
+          src: "https://pub-3dc4056c77ee422a8efd619927049c0e.r2.dev/production-visit/master.m3u8",
           title: "Посещение производства и осмотр продукции",
           orientation: "portrait",
         },
         {
-          src: "/videos-hls/production-check/master.m3u8",
+          src: "https://pub-3dc4056c77ee422a8efd619927049c0e.r2.dev/production-check/master.m3u8",
           title: "Осмотр продукции на производстве",
           orientation: "portrait",
         },

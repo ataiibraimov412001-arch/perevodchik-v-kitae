@@ -20,22 +20,22 @@ export default function PeregovoryPage() {
       ]}
       videos={[
         {
-          src: "/videos-hls/laminate-visit/master.m3u8",
+          src: "https://pub-3dc4056c77ee422a8efd619927049c0e.r2.dev/laminate-visit/master.m3u8",
           title: "Моменты посещения производства ламината",
           orientation: "portrait",
         },
         {
-          src: "/videos-hls/laminate-80/master.m3u8",
+          src: "https://pub-3dc4056c77ee422a8efd619927049c0e.r2.dev/laminate-80/master.m3u8",
           title: "Ламинат на стадии 80% готовности",
           orientation: "portrait",
         },
         {
-          src: "/videos-hls/bathtubs/master.m3u8",
+          src: "https://pub-3dc4056c77ee422a8efd619927049c0e.r2.dev/bathtubs/master.m3u8",
           title: "Как производятся ванны",
           orientation: "portrait",
         },
         {
-          src: "/videos-hls/warehouse/master.m3u8",
+          src: "https://pub-3dc4056c77ee422a8efd619927049c0e.r2.dev/warehouse/master.m3u8",
           title: "Осмотр складов",
           orientation: "portrait",
         },

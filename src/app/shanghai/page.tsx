@@ -21,7 +21,7 @@ export default function ShanghaiPage() {
       image="/images/shanghai.jpg"
       videos={[
         {
-          src: "/videos-hls/disneyland/master.m3u8",
+          src: "https://pub-3dc4056c77ee422a8efd619927049c0e.r2.dev/disneyland/master.m3u8",
           title: "Туристическая поездка — посещение Диснейленда",
           orientation: "portrait",
         },
